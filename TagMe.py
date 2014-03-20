@@ -122,13 +122,13 @@ def read_test_data(test_file):
 
 def RandomForest_method(train_data, target, test_data, n_est):
 	#Use Random Forest method for training and testing!
-	print 'Training '
+	print 'Forest Training'
 	forest = RandomForestClassifier(n_estimators = n_est, criterion='gini')
 
 	forest = forest.fit(train_data, target)
 
 
-	print 'Predicting'
+	print 'Forest Predicting'
 	output = forest.predict(test_data)
 	return output
 
