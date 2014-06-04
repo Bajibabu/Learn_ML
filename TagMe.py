@@ -13,7 +13,7 @@ Duration: 1/03/2014 to 14/03/2014
 Username in the contest: Se7en (Rank 9 on validation test)
 In this I used two types of feature extraction
 1) Features provided in contest
-2) Features extracted using OverFeat (see in google)
+2) Features extracted using OverFeat (search in google)
 Two classifiers were tested
 1) RandomForest in Sklearn
 2) SVM in Sklearn
