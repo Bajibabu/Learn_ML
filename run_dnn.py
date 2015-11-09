@@ -159,7 +159,7 @@ def train_mlp(train_x, train_y, hidden_layers, input_dim, output_dim):
  
 mfcc_dim = 39
 normalization = 'MVN'
-project_dir = '/u/97/bollepb1/unix/courses/ASR/project'
+project_dir = '/home/courses/ASR/project'
 data_dir = os.path.join(project_dir, 'data')
 mfcc_dir = os.path.join(data_dir, 'mfcc')
 labels_dir = os.path.join(data_dir, 'labels')
